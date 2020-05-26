@@ -1,0 +1,28 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:enchanted_book"
+        }
+      ],
+      "functions": [
+        {
+          "function": "minecraft:set_nbt",
+          "tag": "{mf7:0b,CustomModelData:1,Items:[{id:\"minecraft:structure_void\",Count:1b,Slot:26b,tag:{mf7:1b,display:{Name:\"{\\\"text\\\":\\\"Close\\\",\\\"color\\\":\\\"red\\\",\\\"italic\\\":false}\"}}}]}"
+        },
+        {
+          "function": "minecraft:set_name",
+          "name" : {
+            "text": "Backpack",
+            "entity": "this",
+            "color": "dark_aqua",
+            "italic": false
+          }
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,10 @@
+{
+  "sine": {
+    "sounds": [
+      {
+        "name": "custom/sine",
+        "stream": true
+      }
+    ]
+  }
+}
